@@ -1,5 +1,5 @@
 #contributor : Jason Zhang <zhihengz@gmail.com>
-#name : <tag attr="..."/>
+#name : <tag attr="value"/>
 #key : tag
 # --
-<${1:tag} ${2:attr}=""/>$0
+<${1:tag} ${2:attr}="${3:value}"/>$0
