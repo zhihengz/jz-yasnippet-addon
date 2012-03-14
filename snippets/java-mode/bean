@@ -1,12 +1,12 @@
 #name: bean ... { ... }
 #key: bean
 # --
-private ${2:String} ${1:varname};
+private ${2:propertyClass} ${1:propertyName};
 
-public void set${1:$(upcase-initials text)}(${2:String} ${1:fieldName)}) {
-this.${1:fieldName} = ${1:fieldName};
+public void set${1:$(upcase-initials text)}($2 $1) {
+this.$1 = $1;
 }
 
-public ${2:String} get${1:$(upcase-initials text)}() {
-return ${1:fieldName};
+public $2 get${1:$(upcase-initials text)}() {
+return $1;
 }
