@@ -1,0 +1,28 @@
+#name: junit4 testcase ... { ... }
+#key:  testcase
+# --
+
+import static org.junit.Assert.*;
+import static org.junit.Assume.*;
+import org.junit.*;
+import org.junit.runner.RunWith;
+
+public class ${1:App}Test {
+
+    @Before
+    public void setUp() {
+	// setup test case
+    }
+
+    @After
+    public void tearDown() {
+        // tear down test case
+    }
+    /**
+     * Rigourous Test :-)
+     */
+    @Test
+    public void testApp() {
+        assertTrue( true );
+    }
+}
