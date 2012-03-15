@@ -1,0 +1,6 @@
+#name : for-each ( ... : ... ) { ... }
+#key : for
+# --
+for ( ${2:classname} ${1:varname} : ${3:collections}) {
+$0
+}
